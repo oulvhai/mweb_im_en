@@ -1,0 +1,1337 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>MWeb Pro</title>
+        <item>
+            <title>4.6.4</title>
+            <pubDate>Thu, 10 Oct 2024 20:50:01 +0800</pubDate>
+            <sparkle:version>1268</sparkle:version>
+            <sparkle:shortVersionString>4.6.4</sparkle:shortVersionString>
+<description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: Optimized the memory usage of Textbundle documents with  a lots images.</li>
+    <li>Improvement: Added the &quot;Maximum Compatibility&quot; option in the interface for exporting to Epub. After enable it, the exported Epub document should be compatible with most devices.</li>
+    <li>Improvement: The editor add the &quot;Words and Characters Count&quot; menu item in the selection text context menu (right-click menu) .</li>
+    <li>Improvement: When the document is modified using an external app, it will automatically reload the modified document when switching back.</li>
+    <li>Improvement: Compatible with macOS 15 Sequoia.</li>
+    <li>Change: Yuque no longer supports login-based authorization. Currently, Token-based authorization is temporarily retained. I'm not sure if it still works.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+ ]]></description>
+
+<description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：优化了打开很多图片的 Textbundle 文档的内存占用。</li>
+    <li>改进：导出为 Epub 的界面中，增加了 “最大兼容” 的选项，勾选后，导出的 Epub 文档应该能兼容大部分设备了。</li>
+    <li>改进：编辑器中选择文本后，呼出的上下文菜单（右键菜单）中，增加 “词数、字数统计” 的菜单项，以方便查看选择的文本的词数和字数。</li>
+    <li>改进：文档使用外部 App 修改后，再切换回来时，会自动重新加载修改后的文档。</li>
+    <li>改进：兼容 macOS 15 Sequoia。</li>
+    <li>更改：语雀已不再支持登入式授权，目前暂时保留 Token 式授权，不确定是否还能用。</li>
+    <li>其他 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+]]></description>
+
+<description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       <li>改進：優化了打開很多圖片的 Textbundle 文檔的內存佔用。</li>
+       <li>改進：導出為 Epub 的界面中，增加了 “最大兼容” 的選項，勾選後，導出的 Epub 文檔應該能兼容大部分設備了。</li>
+       <li>改進：編輯器中選擇文本後，呼出的上下文菜單（右鍵菜單）中，增加 “詞數、字數統計” 的菜單項，以方便查看選擇的文本的詞數和字數。</li>
+       <li>改進：文檔使用外部 App 修改後，再切換回來時，會自動重新加載修改後的文檔。</li>
+       <li>改進：兼容 macOS 15 Sequoia。</li>
+       <li>更改：語雀已不再支持登入式授權，目前暫時保留 Token 式授權，不確定是否還能用。</li>
+       <li>其他 Bug 修正及改進。</li>
+       </ul>
+
+
+
+]]></description>
+           
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mweb.im/sparkle/MWebPro464.zip" length="36107053" type="application/octet-stream" sparkle:edSignature="85YKT66YMwJ+5d8tULvgCGUXLUQrVBdHge1rVlIGhhhL4/5GK210ktb6YxKHqLipSjsJ8sXg4ZTalUevyP3GDQ=="/>
+        </item>
+        <item>
+            <title>4.6.3</title>
+            <pubDate>Wed, 31 Jul 2024 15:50:57 +0800</pubDate>
+            <sparkle:version>1262</sparkle:version>
+            <sparkle:shortVersionString>4.6.3</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+   <ul>
+<li>New feature: Images upload supports Cloudfalre R2, AmazonS3 and Auzre Blob.</li>
+<li>New feature: Added a &quot;Always on Top&quot; button in the toolbar. Use the menu: &quot;View - Customize toolbar&quot; to see it.</li>
+<li>Improvement: Export images now have options of &quot;Solid border, no gradient&quot; and &quot;No border, no gradient&quot;.</li>
+<li>Improvement: The &quot;Undo and Redo&quot; in the editor changes from recording each typed character to the system default way. If you like the original way, you can check it in &quot;Settings - General Settings&quot;.</li>
+<li>Bug fixes and improvements.</li>
+</ul>
+
+
+
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+   <ul>
+<li>新增：图片上传支持 CloudfalreR2，AmazonS3 和 Auzre Blob。</li>
+<li>新增：工具条新增 “窗口浮动在最前面” 按钮，使用菜单：“视图 - 自定义工具条” 就可以看到了。</li>
+<li>改进：导出图片现在可选择“实线边框，无渐变色” 和 “无边框，无渐变色”。</li>
+<li>改进：编辑器中的 “撤销和重做” 由记录每个键入的字符，改为系统默认的方式。如果你喜欢原来的方式，你可以在 “偏好设置 - 通用设置” 中勾选。</li>
+<li>Bug 修正及改进。</li>
+</ul>
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+<li>新增：圖片上傳支持 CloudfalreR2，AmazonS3 和 Auzre Blob。</li>
+<li>新增：工具條新增 “窗口浮動在最前面” 按鈕，使用菜單：“視圖 - 自定義工具條” 就可以看到了。</li>
+<li>改進：導出圖片現在可選擇“實線邊框，無漸變色” 和 “無邊框，無漸變色”。</li>
+<li>改進：編輯器中的 “撤銷和重做” 由記錄每個鍵入的字符，改為系統默認的方式。如果你喜歡原來的方式，你可以在 “偏好設置 - 通用設置” 中勾選。</li>
+<li>Bug 修正及改進。</li>
+</ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro463.zip" length="36108357" type="application/octet-stream" sparkle:edSignature="bIZIZrwVAI5NHeKC2er8RNy6rzWGigY+eIibwTEHgy/4ZVDbfW6fFEpa6ZeZ86Btytv4nN7MfO64DUL4z17JCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1254.delta" sparkle:deltaFrom="1254" length="1260858" type="application/octet-stream" sparkle:edSignature="y7zh+jUlHZ+0eLsVN8JEQTTa7D22UFVZk26kQxP0JSa/2i2gJvd6Jxrui6E6BH0CpXJqPBgzvE3bab/MGBAqDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1249.delta" sparkle:deltaFrom="1249" length="1322342" type="application/octet-stream" sparkle:edSignature="Y5hMrynrk3zWt6UqcUhMXE02zxnM7nGrZv04W9HwQuAi1ZYq+zShtvNSl4Hal7CDthoy+dD+z2UBgomEaBmLDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1246.delta" sparkle:deltaFrom="1246" length="1468846" type="application/octet-stream" sparkle:edSignature="EGVOhSlgGcyVVgKjBWWopmnrNtYeWFDo//r0MAgIuMmOdnY/Kzi2T9PGrkxST2NhvWZr7rAmoFDIGLq/83E0Bg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1242.delta" sparkle:deltaFrom="1242" length="1485502" type="application/octet-stream" sparkle:edSignature="n8qb1nRSqDHg04q5gGJWPInUEhbFX2YzsonKyreg4Xs8hw6bzugYvSQ7pXUJ1xficwVW95ORzi4PFwrvwjClBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1262-1239.delta" sparkle:deltaFrom="1239" length="2225506" type="application/octet-stream" sparkle:edSignature="Td4peHFOa5BnHwxDkdYHdivXky1wjw9aRklJD5LYo3uthWWtUHmbVBV+R1hoysYy2c6MWt5I9GA32cURWEm0BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.6.2</title>
+            <pubDate>Wed, 29 May 2024 23:24:02 +0800</pubDate>
+            <sparkle:version>1254</sparkle:version>
+            <sparkle:shortVersionString>4.6.2</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: When exporting a Markdown document as an image, you can choose whether to add a border or not, and you can also choose 4 different image sizes. The exported images also become very beautiful.</li>
+    <li>New feature: Added a &quot;Show in Finder&quot; submenu under the &quot;File&quot; menu. After using it, the location of the current document will be displayed in the Finder.</li>
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：把 Markdown 文档导出为图片时，可以选择是否加边框，也可以选择 4 种不同的图片大小，导出的图片也变得很好看了。</li>
+    <li>新增：“文件” 菜单下增加 “在 Finder 中显示” 子菜单，使用后，会在 Finder 中显示出当前文档的位置。</li>
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：把 Markdown 文檔導出為圖片時，可以選擇是否加邊框，也可以選擇 4 種不同的圖片大小，導出的圖片也變得很好看了。</li>
+        <li>新增：“文件” 菜單下增加 “在 Finder 中顯示” 子菜單，使用後，會在 Finder 中顯示出當前文檔的位置。</li>
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro462.zip" length="36044435" type="application/octet-stream" sparkle:edSignature="I7dzfQ4qsqzlDDcHimflwaUIM8i/iXiDnWEtPbC022EPHKxBo+uhJgpJM1PmeQmUY6Ruv25fbQY7Ns6q4NP1Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1249.delta" sparkle:deltaFrom="1249" length="920514" type="application/octet-stream" sparkle:edSignature="P1Hq7oLZ5drHoR3LuAK752X0c6Eq4kB0v9gEnlyvNEmcqgL62cYdLra6SU9YF4bkpwKJlY4+ZMdKg/CmjwMPDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1246.delta" sparkle:deltaFrom="1246" length="1111078" type="application/octet-stream" sparkle:edSignature="hvonnfn/kQ7PkkrTyKlsD2+yF7Dpdx8iO20mVn6wF1yQSheP8wAXJgT1XL5oHnA0e1IlkJNM7A5yqBmxtBFQAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1242.delta" sparkle:deltaFrom="1242" length="1134466" type="application/octet-stream" sparkle:edSignature="OlmZgl2qBFhAzwBRHtU1F0JzsqcVm6wXv58wVw8H0tsynO0T8sYZSIRF4VcPo224h1soaExRlDNLh4Q8/MrnDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1239.delta" sparkle:deltaFrom="1239" length="1923622" type="application/octet-stream" sparkle:edSignature="4dzipcdYLl2bGUnIGzS8AnRLCP5QCwB8ProXfeN1QqabXpZ2FU8/gHnk05LxTVDM+TPltL8ATh80Odh110xJDw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1254-1237.delta" sparkle:deltaFrom="1237" length="1927194" type="application/octet-stream" sparkle:edSignature="uTHYo/BxY+VnI48YRooiCt3e1LbfxZhMg0XdfCi2FuGFngZvIQsVLtNHdoBMKvsL7Vj3XNqH6hHDnbY39hreCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.6.1</title>
+            <pubDate>Thu, 25 Apr 2024 23:03:44 +0800</pubDate>
+            <sparkle:version>1249</sparkle:version>
+            <sparkle:shortVersionString>4.6.1</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: When exporting HTML, you can choose whether to add Table Of Contents (TOC), and whether to add it on the left or right. You can choose it in the interface for exporting HTML.</li>
+    <li>Improvement: In the menu: Actions - Insert current date, add a menu item to insert the current time.</li>
+    <li>Improvement: When changing the editor font size, the preview font size will also change accordingly. You can use &quot;cmd + +/-&quot; to adjust the font size.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：导出 HTML 时，可以选择是否增加 Table Of Contents（TOC），要增加在左侧还是右侧。在导出 HTML 的界面中就可以选择了。</li>
+    <li>改进：在菜单：语法 - 插入当前日期 中，增加插入当前时间的菜单项。</li>
+    <li>改进：改变编辑器字体大小时，预览的字体大小也会跟着变动了。你可以使用 “cmd + +/-” 来调整字体大小。</li>
+    <li>其他 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：導出 HTML 時，可以選擇是否增加 Table Of Contents（TOC），要增加在左側還是右側。在導出 HTML 的界面中就可以選擇了。</li>
+        <li>改進：在菜單：語法 - 插入當前日期 中，增加插入當前時間的菜單項。</li>
+        <li>改進：改變編輯器字體大小時，預覽的字體大小也會跟著變動了。你可以使用 “cmd + +/-” 來調整字體大小。</li>
+        <li>其他 Bug 修正及改進。</li>
+        </ul>
+
+
+
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro461.zip" length="36038078" type="application/octet-stream" sparkle:edSignature="PsRHPn0EPRbYwB995oDObphWhGCoK2FTQveGPH3reKfcJWXpSv+g0FJfaH7g95ruLWZPH07AJOSX8ZrThJmkDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1246.delta" sparkle:deltaFrom="1246" length="930086" type="application/octet-stream" sparkle:edSignature="oL04eiTtnL+v/7rPHIMqatu3z/EqAqprtqYEfNnNcYHAlJmB7MoshkJgQDIqbAPUh6B+soa7CTMEN5Frx5WdDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1242.delta" sparkle:deltaFrom="1242" length="1049334" type="application/octet-stream" sparkle:edSignature="h9V4H7pkNz4Rm6TH0q5HkOdKdeUOu60BAsIoCYG5FnQBIBAONRsP5LY80luWAKRLkKBaRx4s+yAZZhpk+g6DDw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1239.delta" sparkle:deltaFrom="1239" length="1831398" type="application/octet-stream" sparkle:edSignature="vNWDzs01NrnfPGl0t9XFskcQb5vcZG5tALYXZW6VOj1CqRjQ9MBHHA/iobI9dqs3oZX8Ycf9d/KuGFUGFXMEBQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1237.delta" sparkle:deltaFrom="1237" length="1851622" type="application/octet-stream" sparkle:edSignature="EYpv1MDo1vTrh343z/vsuBHzcszMT+yLJ8zIRQ0hqCITtwKr3bbeS6ADqW6aDmmI9qSgANCpRUY94Zc35L2uCw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1249-1228.delta" sparkle:deltaFrom="1228" length="1923642" type="application/octet-stream" sparkle:edSignature="KIy/GQ8txwWpIiz6bUDIKwdzMvvVt1c8X7cJcnAMmgBsQMHBji2sVPcQUGl0u/Jwj7ER1ltANhobBv4UkdWoBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.9</title>
+            <pubDate>Sun, 07 Apr 2024 22:43:40 +0800</pubDate>
+            <sparkle:version>1246</sparkle:version>
+            <sparkle:shortVersionString>4.5.9</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: The export PDF function in macOS now allows fonts and font size settings, where the fonts list comes from multiple fonts in &quot;Settings - Fonts&quot;. In addition, the export PDF function in iOS/iPadOS also adds fonts, font size, paper, margins and other setting items.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：macOS 中的导出 PDF 功能现在可以选择字体和字体大小了，其中字体选择部分来自 “设置 - 字体” 中的多种字体。另外，iOS/iPadOS 中的导出 PDF 功能，也增加了字体、字体大小、纸张、边距等等设置项目。</li>
+    <li>其他 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>改進：macOS 中的導出 PDF 功能現在可以選擇字體和字體大小了，其中字體選擇部分來自 「設置 - 字體」 中的多種字體。另外，iOS/iPadOS 中的導出 PDF 功能，也增加了字體、字體大小、紙張、邊距等等設置項目。</li>
+    <li>其他 Bug 修正及改進。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro459.zip" length="36032229" type="application/octet-stream" sparkle:edSignature="jojB/B+GCZkuhY6ZLQFN7Syh5TIq57ZDXVdUuVphUPoSEAkSwzUloTWQnPFyqzH+NmIE140cFmhoEREJWW1rCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1246-1242.delta" sparkle:deltaFrom="1242" length="801118" type="application/octet-stream" sparkle:edSignature="juATk6+Ws/o6UnBEGA5oW/B56UKSDJ5uk4C71QzbyN4MBrz3+pM2sirWKu8om3B8qqL60lkNBwkZ3mqiCNvICQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1246-1239.delta" sparkle:deltaFrom="1239" length="1640914" type="application/octet-stream" sparkle:edSignature="wYPZq3yIlyYhww8cDsQ/DVHajGP+r2vdcDciAyN/erEjcfNOIr0i49qSA98IWtzsNhG349eb8MkVv6FuWV6RBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1246-1237.delta" sparkle:deltaFrom="1237" length="1674550" type="application/octet-stream" sparkle:edSignature="s6OsckaSZEXlPPXAYk5MPyaX56FYb5eJVN3G/eyYr/3dcS30KmbewECgImREjRfeMWo8780aJtOBrd98itEMAg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1246-1228.delta" sparkle:deltaFrom="1228" length="1743178" type="application/octet-stream" sparkle:edSignature="jFXnr8ntMPqlZKdKKB24lT0ztw9FLJU4lRaX0F4OO7mvtMZgVaP07lwT/Jh8xdnO4SU/yLVGJ07A6iDBvJvxAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1246-1226.delta" sparkle:deltaFrom="1226" length="1735282" type="application/octet-stream" sparkle:edSignature="el4xiUbRnxCSZs+iuAy0UgzuW76KK+okAP0IcxfC7P6SneTF1Vb/tMox9CMyIylvtOoTNfZqeEYmRynIZMfBCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.8</title>
+            <pubDate>Tue, 19 Mar 2024 23:20:30 +0800</pubDate>
+            <sparkle:version>1242</sparkle:version>
+            <sparkle:shortVersionString>4.5.8</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: When clicking the &quot;Sync Button - Sync Now&quot;, in addition to requesting to push all changes, the currently open document will also be directly synchronized. If you feel that the current document synchronization is slow, it should improve after performing this operation.</li>
+    <li>Improvement: The mermaid library is updated to 10.9.0, but 10.2.4 will continue to be used when macOS is below 13 and iOS is below 15.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：点击 “同步按钮 - 马上同步” 后，除了请求推送所有更改外，还会直接同步当前打开的文档。如果你觉得当前的文档同步慢，执行这个操作后，应该会有改进。</li>
+    <li>改进：mermaid 库更新到 10.9.0，但是在 macOS 13 以下和 iOS 15 以下版本时，还是会继续使用 10.2.4 。</li>
+    <li>其他 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       <li>改進：點擊 「同步按鈕 - 馬上同步」 後，除了請求推送所有更改外，還會直接同步當前打開的文檔。如果你覺得當前的文檔同步慢，執行這個操作後，應該會有改進。</li>
+       <li>改進：mermaid 庫更新到 10.9.0，但是在 macOS 13 以下和 iOS 15 以下版本時，還是會繼續使用 10.2.4 。</li>
+       <li>其他 Bug 修正及改進。</li>
+       </ul>
+
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro458.zip" length="36029193" type="application/octet-stream" sparkle:edSignature="HEpAK8e6uRZafKJaBLJAbisw+f09lxX6JLcV0+vzb86KpiT7rXeW2Aj0p7XrI4J70+j3bx/08/LPN8rzhx0VDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1239.delta" sparkle:deltaFrom="1239" length="1598774" type="application/octet-stream" sparkle:edSignature="46FqO/nEFzw9dTwWDRXFKiMBPgfba1CPrasMHAZKtVav1a82b0NMXqON6UIlz2qgB8k9/J03R8ZOVUCouPfZCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1237.delta" sparkle:deltaFrom="1237" length="1593462" type="application/octet-stream" sparkle:edSignature="4jHTYFhKagbBRCrNwSAw9Aksxwf03mYIQM1BwEo+Dk0qn8mSHAla4yb31+SGu7IVeJiG54UXnCzLFR17HKzGDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1228.delta" sparkle:deltaFrom="1228" length="1695262" type="application/octet-stream" sparkle:edSignature="Xz6YNLapsNsADdYqcXFBIYMU42P0ETn7Jt5zngktlrcsjk7J8PT1Fvj4P4GSCTHFvdnnW+cr/v3/0cmyoykLAA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1226.delta" sparkle:deltaFrom="1226" length="1711182" type="application/octet-stream" sparkle:edSignature="qfXy2obb6QeOl10zZSp3iyqBtJv6siLavFE8rX3VgKWLNTTb231sde2JD+4rKTAiEdTjq5eLkorKm2Dqdq3YDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1242-1218.delta" sparkle:deltaFrom="1218" length="2373590" type="application/octet-stream" sparkle:edSignature="Z20jcd31Af5JlOpcLwTpY6VD7fUEW3ToaEjnNn9xQGbnuorFdNuU0hrsE1au+1Pr5HjWHXqFejlTeP+Y94yGCw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.6</title>
+            <pubDate>Mon, 05 Feb 2024 17:48:19 +0800</pubDate>
+            <sparkle:version>1239</sparkle:version>
+            <sparkle:shortVersionString>4.5.6</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro456.zip" length="35023869" type="application/octet-stream" sparkle:edSignature="+b40f9isfI8QdoFvE+If/dxxOrcSFj8UoFElreZ0QVzLCrkm9PpvvMj0YmkEiuGZMWbUZwAw/US2aUcDy5t7Bg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1239-1237.delta" sparkle:deltaFrom="1237" length="712946" type="application/octet-stream" sparkle:edSignature="xv4tL86zMznujcybOJqIipJSJr4ns4P58yXTjJrsZHmjijLW9xycrQkkSUrsymI1BDorUmHk3u72Ca1weCKgAA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1239-1228.delta" sparkle:deltaFrom="1228" length="893794" type="application/octet-stream" sparkle:edSignature="kFQj7AGJr4k9U45H+Zk7N+Umoxr9nyX+VNKAdFl2maVlghX+OPPtP45CZr6WpHhsB0OAUCvNH02Vb+7OWGF6Ag=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1239-1226.delta" sparkle:deltaFrom="1226" length="907130" type="application/octet-stream" sparkle:edSignature="YtP2S2uWb0VaOTDpTyNx3t2m6io18cCKZWMWYtir8yvOvBBVK//rCKJ4DfBjRCx0WyYlWPPs25iuaG9PK9bMDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1239-1218.delta" sparkle:deltaFrom="1218" length="1243318" type="application/octet-stream" sparkle:edSignature="1avwk6EsqGnYbUZOt9q0ylK+aJG0N4x4yAmd5lXo9orfziRvjSwG0yTmccP4lDPI5/VRCqzGTR9dhDFHLf2gDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1239-1208.delta" sparkle:deltaFrom="1208" length="1029310" type="application/octet-stream" sparkle:edSignature="0K8924Gg/E9aVGc2IE/ukLlnx52t/kmbYE807ovSdzmC0fC2Xq/WQ+VtxnXcL3qj410RXLszQZ7HWFJGI/IpAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.5</title>
+            <pubDate>Tue, 30 Jan 2024 14:02:49 +0800</pubDate>
+            <sparkle:version>1237</sparkle:version>
+            <sparkle:shortVersionString>4.5.5</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro455.zip" length="35022824" type="application/octet-stream" sparkle:edSignature="o+JIGZFC4j48t5ac+ZIa61pqcltZx+Gk5Wxts6cjCiYi/2pI3OuL4s+bkkWlXwVI9Ytx8LhV8YenL3IjaMCaBA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1237-1228.delta" sparkle:deltaFrom="1228" length="871142" type="application/octet-stream" sparkle:edSignature="LwxEsq53V7CCAQs3xwoqlY6U4Fkfp87V1zuyZmim5F3v5RmhQm0cT/PMFdYuNvs9QZ2Il5r8R9GeRceWda/CAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1237-1226.delta" sparkle:deltaFrom="1226" length="866482" type="application/octet-stream" sparkle:edSignature="wziAPXfcMLmf8BKZbjsYrpkELumwLHHhsmO2pBROWvtzvNLSYKzOECeXvAePq1NKu/EjOqYFPUeXuS4Yl6mjDw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1237-1218.delta" sparkle:deltaFrom="1218" length="1224090" type="application/octet-stream" sparkle:edSignature="He4P4duEpQyB2NViX0bX26ZmaJErXskSyFNBF18O8CLfC2ZkmbLdUxTz0TBzFAiLpDfAjcs56Lf9ydsFgfv7CA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1237-1208.delta" sparkle:deltaFrom="1208" length="1001566" type="application/octet-stream" sparkle:edSignature="Sqraql1ry+4hat/t2Ywap0riozVv2wAvSqgw2IPF4vXLBCcFBArOa+z9xXmHo66SsHGeMJSxakIzm6fMydC6BQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1237-1202.delta" sparkle:deltaFrom="1202" length="1029614" type="application/octet-stream" sparkle:edSignature="phwEHWtqLutoURX7yO14XXy82YFZKaFOXbLLZnNc7LMLtqt3CiaAAdLethGrD0azXwZPmikhYiSNVzfy7L7wAQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.4</title>
+            <pubDate>Tue, 02 Jan 2024 16:45:29 +0800</pubDate>
+            <sparkle:version>1228</sparkle:version>
+            <sparkle:shortVersionString>4.5.4</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro454.zip" length="35008977" type="application/octet-stream" sparkle:edSignature="2DEy3zQv6sdInyJfM01Dp+dKo0EactR0jZgUgGlOTyNZPEVtexbNQyZnKEVXlV4sPLiVBf/fbEXPBAn/fIDbCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1226.delta" sparkle:deltaFrom="1226" length="653862" type="application/octet-stream" sparkle:edSignature="NjV6rTUN9M54hLNgYCMv0YMTWLHP05HNw+Wp2wGrz/3vwYv7w2jsRfVztln7FIK0OOHO4oteu0iV7OCwhElcDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1218.delta" sparkle:deltaFrom="1218" length="1134938" type="application/octet-stream" sparkle:edSignature="iYRLxzrGtXldf63xjCI7zoP/kR3KcPpBp+HiqZvuKNawNBziyIE1iXQIxrtOm29dcTReDRn5/5Wn1bQRcES/AA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1208.delta" sparkle:deltaFrom="1208" length="903442" type="application/octet-stream" sparkle:edSignature="dSsopLkynmmfvBwyvIZLmr2RkjkHtrsCojwMsvlxYuwig1RqYd88QtElFoTVuYhIT4ttw3H12CNDBgIWPMUrAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1202.delta" sparkle:deltaFrom="1202" length="943102" type="application/octet-stream" sparkle:edSignature="KC7yWGoDYfCzkexNoZIja/EgxnrZljkT3iO5QF7XCL+3fbCx0Jlp8Cw62yyoJiTjkoxiEF5twRPZHe1ofsItBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1228-1186.delta" sparkle:deltaFrom="1186" length="2820350" type="application/octet-stream" sparkle:edSignature="E2NX1M7X5j7lOgLLRcTyZfqSLvaxsOpufAm4xSNRDmSH+T8uPqK0EFoP3w8ucfVD3jdQxFj69yTv7LkOmbEqBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.3</title>
+            <pubDate>Tue, 19 Dec 2023 20:40:54 +0800</pubDate>
+            <sparkle:version>1226</sparkle:version>
+            <sparkle:shortVersionString>4.5.3</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Fixed: The previous version upgraded the mermaid library to 10.6.1, which caused problems in macOS 11 and below. This version reduces the version of the mermaid library to 10.2.4 to solve this problem.</li>
+    <li>Improvement: The Library mode's editor information bar is changed to fully display the path of the category to which the document belongs.</li>
+    <li>Improvement: Add an &quot;Open External Folder mode&quot; button to the lower left of the Library interface.</li>
+    <li>Improvement: Add an &quot;Open Library Mode&quot; button to the lower left of the interface in External Folder mode.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>修正：上个版本把 mermaid 库升级到 10.6.1 导致在 macOS 11 及以下版本中会出问题，这个版本把 mermaid 库的版本降至 10.2.4 来解决这个问题。</li>
+    <li>改进：编辑器的信息条改为完整显示文档所属的分类的路径。</li>
+    <li>改进：文档库的界面的左下方增加 “打开外部文件夹模式” 按钮。</li>
+    <li>改进：外部文件夹模式的界面的左下方增加 “打开文档库模式” 的按钮。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>修正：上個版本把 mermaid 庫升級到 10.6.1 導致在 macOS 11 及以下版本中會出問題，這個版本把 mermaid 庫的版本降至 10.2.4 來解決這個問題。</li>
+        <li>改進：編輯器的信息條改為完整顯示文檔所屬的分類的路徑。</li>
+        <li>改進：文檔庫的界面的左下方增加 「打開外部文件夾模式」 按鈕。</li>
+        <li>改進：外部文件夾模式的界面的左下方增加 「打開文檔庫模式」 的按鈕。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro453.zip" length="35008383" type="application/octet-stream" sparkle:edSignature="2LLviW+mw272SBlIPu0Uc0MUxcVv+hUUiFEUgfbcFstK0jKV4neW7neRR0LhAjS8ZVNibyJ+zdM14m9d1E1dAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1218.delta" sparkle:deltaFrom="1218" length="1140170" type="application/octet-stream" sparkle:edSignature="o8VaWFbt7BfmPB+OLl5BfVVRKvg/F0wgeDgIEGw6bc5mETW6lV69omyQyvsPg8uffjBwHA3DqBzlE+9vJG1SDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1208.delta" sparkle:deltaFrom="1208" length="900526" type="application/octet-stream" sparkle:edSignature="zZm1S4wBzfVL2hgs7dcCxRClum/HetJ92E18NeIkq+8GECA+lEMixU7pyGcWDPaMmjuOnFxHaCfa7RchQHefAA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1202.delta" sparkle:deltaFrom="1202" length="923766" type="application/octet-stream" sparkle:edSignature="BIrfF5ne97xDRlsYLPJWwXicrHuwSTtbbwgLDrCcF7SvwgkDMYwBRlFIMs5l7IgECnJGK7d0cpNvXUs8Y8TYBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1186.delta" sparkle:deltaFrom="1186" length="2823466" type="application/octet-stream" sparkle:edSignature="B9JB8xJ46oVX3+OwS96ax/ahG0IaXNKtivW86uXgX0GH6f+for9KBk8sVDbxpX5lUzbVsrAw2Qb64tcgrJI3BA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1226-1182.delta" sparkle:deltaFrom="1182" length="3002130" type="application/octet-stream" sparkle:edSignature="d8YV1kTX2/DwNGRtc/NxkSvA6HYp8eegsyh6Av/qxFFcmrJolXyci/0dsEPpBtbxJ0OXAdKxBIuN5eGAU1THCA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.2</title>
+            <pubDate>Fri, 15 Dec 2023 14:02:46 +0800</pubDate>
+            <sparkle:version>1218</sparkle:version>
+            <sparkle:shortVersionString>4.5.2</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro452.zip" length="35023692" type="application/octet-stream" sparkle:edSignature="+QNST+9lhasuhP/PJxKGavwBav4wccXFb5hbdNe+ifiUoEfjHTdGISlINeAf5al/zExpbVr1E79ekQuGWRKHDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1208.delta" sparkle:deltaFrom="1208" length="1072574" type="application/octet-stream" sparkle:edSignature="/sSOygLpyhC+8MlX5f4wguDODvEOGD/bEODKhFRh/qlYF0xvbruPBf4ltyIXh9nk0RRpr0KYkW/pkAoHPHciDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1202.delta" sparkle:deltaFrom="1202" length="1131426" type="application/octet-stream" sparkle:edSignature="BWtuvEvb8Pf/y8P9S+Hk/r+V0NJFArkYGzX9PL45Fhu0/+EmKIxkpksLmHE949i8SIWLq+JknMKK1cK1td/1Aw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1186.delta" sparkle:deltaFrom="1186" length="3093978" type="application/octet-stream" sparkle:edSignature="2j5z74lebz82PFxH132SuoZt9SQGKxZbq+UDXC4Zp4kt9kBllbdAU0qYcf3SroRoLo2OO8t+TiPtTe6VCuBBCA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1182.delta" sparkle:deltaFrom="1182" length="3292982" type="application/octet-stream" sparkle:edSignature="RnPJ3j6YdxGTnDlN0YREUfpci4E2gYctLu8oK63p1qpwmO+Duk4zdncqfviPJZbuNfA5FXULfI7T8xoUFc+DAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1218-1179.delta" sparkle:deltaFrom="1179" length="3334858" type="application/octet-stream" sparkle:edSignature="JNm1H16amYpphs/SXJGmTkGQwcSZJGCcLQNvxpEd/tQCiltdBLW4oada7UnNovKrLzA01VW7WLuac4Sfz/92CQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.5.1</title>
+            <pubDate>Mon, 06 Nov 2023 20:10:49 +0800</pubDate>
+            <sparkle:version>1208</sparkle:version>
+            <sparkle:shortVersionString>4.5.1</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+   
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+   
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       
+        <li>Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro451.zip" length="34999616" type="application/octet-stream" sparkle:edSignature="iVyeys7V4mu/NpAguYaMzdqDhkYaP0eywiqF8YLoZQTkLQcFatMLwkHOeDClF5Nwfy5ywGDrb+B/s+usbhipCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1202.delta" sparkle:deltaFrom="1202" length="700666" type="application/octet-stream" sparkle:edSignature="/q0NE3dbaBlxiXMyphPzAPt/O+mpqybzREvm/PiUKt0ZC3j7nInfTK+MpXvWTpx++jELIxW8//10K4NXu7qHAg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1186.delta" sparkle:deltaFrom="1186" length="2781522" type="application/octet-stream" sparkle:edSignature="xu4viZ+OA+aoUFFdE0baq00ul8YsUXzQ9Ma1N2JFhd7L8bUb4lFvM36pueWefnL3a8Q7/U7r8FGKjk/bjuVNBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1182.delta" sparkle:deltaFrom="1182" length="2972290" type="application/octet-stream" sparkle:edSignature="3i7NzCBgg8DHCcW5o3zIBoEkZoJVk+CRZMBybuxLPeH/mF2DjIHjXp95MkyBK9vcCuDi4rYuYIN1McC2UewoDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1179.delta" sparkle:deltaFrom="1179" length="3012702" type="application/octet-stream" sparkle:edSignature="YZjiyZseJCPMkWk1kQekGdb6JubbBg/HAT3wWPl6OfM1EvnGkAnACSCvQFNyisPNOufa266cT+jmzbhcGTUrCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1208-1176.delta" sparkle:deltaFrom="1176" length="3104438" type="application/octet-stream" sparkle:edSignature="WAxMu+4REKaKnQw86VV+GE85RCTSg2ScJoqamU5Z9ljzPUy6WAkZ7Wt9Gi7+FLehKKn3zvLZCuiwVXhboxzzCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.9</title>
+            <pubDate>Mon, 30 Oct 2023 13:26:43 +0800</pubDate>
+            <sparkle:version>1202</sparkle:version>
+            <sparkle:shortVersionString>4.4.9</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: Compatible with macOS 14.</li>
+    <li>Improvement: A &quot;Replace...&quot; button is added to the local image upload interface of the document. When tap the &quot;Replace...&quot; button, the local image address in the original document will be replaced with the uploaded image address.</li>
+    <li>Improvement: After exporting to Epub, the set cover and author will be remembered, so there is no need to set them again when exporting next time.</li>
+    <li>Improvement: In edit mode, when scrolling the document content, the outline view will highlight the title corresponding to the current content.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：兼容 macOS 14 。</li>
+    <li>改进：文档的本地图片上传增加 “替换” 按钮，点击后可以把原文档中的本地图片地址替换成已上传后的图片地址。</li>
+    <li>改进：导出为 Epub 后，会记住设置过的封面和作者，下次再导出时就不用再设置了。</li>
+    <li>改进：在编辑模式下，滚动文档内容时，大纲视图会突出显示当前内容对应的标题。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：兼容 macOS 14 。</li>
+        <li>改進：文檔的本地圖片上傳增加 「替換」 按鈕，點擊後可以把原文檔中的本地圖片地址替換成已上傳後的圖片地址。</li>
+        <li>改進：導出為 Epub 後，會記住設置過的封面和作者，下次再導出時就不用再設置了。</li>
+        <li>改進：在編輯模式下，滾動文檔內容時，大綱視圖會突出顯示當前內容對應的標題。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro449.zip" length="34997937" type="application/octet-stream" sparkle:edSignature="76qZadoiQ97zhq/7PPTvd3c7KmvKbu7ckVs660ctrKGKQQePFZ1gDwrZfqskWjuIAi7UQ7r9FlIVJRoW1zUpCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1186.delta" sparkle:deltaFrom="1186" length="2763234" type="application/octet-stream" sparkle:edSignature="lo96NwE/QQqk1Ifmri2Rrxn+3oT7Gs8Dl+mYXSrWAqcH5gMgg5GscEqO0UKXoW5L7InWp0I+ooPYFobJgmmzBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1182.delta" sparkle:deltaFrom="1182" length="2946058" type="application/octet-stream" sparkle:edSignature="/GaUDLhoaXrg552j+ZzfwO23sMjN7PTvw+ie3SulIgrdj3FR48Pgu7Gv5wXlK0EbI0pYz05OjSzCuzxnnm3hBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1179.delta" sparkle:deltaFrom="1179" length="3013710" type="application/octet-stream" sparkle:edSignature="H1YuEKjRHCheTMcsuYncA1sMmDnW/nEgSQ+UxqXm1udL2QNTYDiMiX+cphDGPtnlgANhg26Dg1y14GpfrP5hAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1176.delta" sparkle:deltaFrom="1176" length="3099726" type="application/octet-stream" sparkle:edSignature="9R15UyF7kfiMo+XKg6amM62sSGiizyZm7mDmaribtcqDvQ0SADb1falzUqt+1j8qlhu6jgf+xRzfpc0Zs/FvDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1202-1168.delta" sparkle:deltaFrom="1168" length="4199838" type="application/octet-stream" sparkle:edSignature="YJCG3wC5+9A6np0WesqknQS76V3HZYSeIdFIuofe6f0BK21xlJtxZB4z7jAjM+zyMJyPgwh9edUudxpeGCRKCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.8</title>
+            <pubDate>Wed, 06 Sep 2023 21:24:28 +0800</pubDate>
+            <sparkle:version>1186</sparkle:version>
+            <sparkle:shortVersionString>4.4.8</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>New feature: add 25 new themes, including 8 light themes and 17 dark themes.</li>
+    <li>New feature: add menu &quot;File - Reload Current Document&quot;.</li>
+    <li>Improvement: When customizing a theme, it is very easy to make a new theme by configuring the colors of various elements. However, configuring a good-looking color scheme is often difficult. The new version introduces the base16 color scheme framework, adding 179 colors for reference. How to use: &quot;Preferences - Theme &amp; Style - Customize Theme&quot;.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>增加：新增 25 个主题，其中亮主题 8 个，暗主题 17 个。</li>
+    <li>增加：菜单 “文件 - 重新加载当前文档”。</li>
+    <li>改进：自定义主题时，通过配置各种元素的颜色来制作新的主题非常简单。然而，配置一种好看的颜色方案通常很难。新版引入了 base16 配色方案框架，增加了 179 种配色供参考。使用方法：“偏好设置 - 主题&amp;样式 - 自定义主题”。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       <li>增加：新增 25 個主題，其中亮主題 8 個，暗主題 17 個。</li>
+       <li>增加：菜單 「文件 - 重新加載當前文檔」。</li>
+       <li>改進：自定義主題時，通過配置各種元素的顏色來製作新的主題非常簡單。然而，配置一種好看的顏色方案通常很難。新版引入了 base16 配色方案框架，增加了 179 種配色供參考。使用方法：「偏好設置 - 主題&amp;樣式 - 自定義主題」。</li>
+       <li>其它 Bug 修正及改進。</li>
+       </ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro448.zip" length="34994906" type="application/octet-stream" sparkle:edSignature="fIT3TlSDSKmMPh5PPwDxpKfjUqNwJSM7mCj6Ms8dYJS4GrXRhveGdnnaW71y/NyZWqiL8hDYrwJhShd85WIdAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1186-1182.delta" sparkle:deltaFrom="1182" length="1038198" type="application/octet-stream" sparkle:edSignature="J76Im+1mxQIxXoCHUvNn7qgJ/QyzbZ90qaEDwJARIvMqpQMEeRbjMC/RncuhCP9vuy2jZxgfKLlX6mYoSerCAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1186-1179.delta" sparkle:deltaFrom="1179" length="1138746" type="application/octet-stream" sparkle:edSignature="2MYozg88xNb9nsSC/zPPAEUxg0oRCvcUyZUXxtUOx8QEFHgTmwR4oBYwROCnjiDqiTjgYK+VHOwhEFBo/LlvCw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1186-1176.delta" sparkle:deltaFrom="1176" length="1207958" type="application/octet-stream" sparkle:edSignature="83k75wTSl6wLB8EjIOEdeJW8BE7gbg3f4tEhwAOyf72oF2DrmA/4XifOT0rmbx6CjCZ0hr7IhiO7rfVHTbs3DQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1186-1168.delta" sparkle:deltaFrom="1168" length="2852930" type="application/octet-stream" sparkle:edSignature="v64AcObuQuVURtpG3FByVCzper3HDPkHEdUAQrtlb6ba2J5fvOVC0+8pDRGicKCmtpKeG+XfZV02Bf1as5o8CA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1186-1148.delta" sparkle:deltaFrom="1148" length="2902450" type="application/octet-stream" sparkle:edSignature="a5Bo5rIQgdG8VNwIxfKGCJQJOrw69e2sKFUuJ1O1pxXcUzwMEmIBIRfcxqd97LnZu6bQDkIhBXmBqp27y1lADA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.7</title>
+            <pubDate>Thu, 03 Aug 2023 23:28:41 +0800</pubDate>
+            <sparkle:version>1182</sparkle:version>
+            <sparkle:shortVersionString>4.4.7</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Improvement: Improved LaTeX's `$` syntax support, support \$ escape, support GitHub's $`\sqrt{3x-1}+(1+x)^2`$ syntax.</li>
+    <li>Improved: LaTeX more settings added option: LaTeX enables physics package.</li>
+    <li>Improvement: When adding published to wordpress.com service, the login method is changed from &quot;login in the pop-up window in the App&quot; to &quot;login with the default browser&quot;.</li>
+    <li>Improvement: In iCloud Drive files in the external folder mode, will automatically download unsynced files..</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：改进 LaTeX 的 `$` 语法的支持，支持 \$ 转义，支持 GitHub 的 $`\sqrt{3x-1}+(1+x)^2`$ 语法。</li>
+    <li>改进：LaTeX 更多设置增加选项：数学公式启用 physics 包 （LaTeX enables physics package ）。</li>
+    <li>改进：增加发布到 wordpress.com 的服务时，登录方式由 “App 内弹窗登录” 改为 “打开默认浏览器登录”。</li>
+    <li>改进：外部文件夹模式中的 iCloud 云盘的文件，改为主动下载未同步的文档。</li>
+    <li>修正：打开 “文档间的引用（双链）中的定位文档中的标题或文本” 的链接时，有时候不能正确跳转到目标位置的问题。</li>
+    <li>修正：边编辑边预览模式下，编辑的内容和预览的内容有时候会对不准的问题。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+   <li>改進：改進 LaTeX 的 `$` 語法的支持，支持 \$ 轉義，支持 GitHub 的 $`\sqrt{3x-1}+(1+x)^2`$ 語法。</li>
+   <li>改進：LaTeX 更多設置增加選項：數學公式啓用 physics 包 （LaTeX enables physics package ）。</li>
+   <li>改進：增加發佈到 wordpress.com 的服務時，登錄方式由 「App 內彈窗登錄」 改為 「打開默認瀏覽器登錄」。</li>
+   <li>改進：外部文件夾模式中的 iCloud 雲盤的文件，改為主動下載未同步的文檔。</li>
+   <li>修正：打開 「文檔間的引用（雙鏈）中的定位文檔中的標題或文本」 的鏈接時，有時候不能正確跳轉到目標位置的問題。</li>
+   <li>修正：邊編輯邊預覽模式下，編輯的內容和預覽的內容有時候會對不准的問題。</li>
+   <li>其它 Bug 修正及改進。</li>
+   </ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro447.zip" length="34832378" type="application/octet-stream" sparkle:edSignature="jtkdl5jxq+jk7C4rHCPLbLzfOn4nkkpkGAoFhodEIsehtRF5uWV7998JmBWlvEhubYNOi4DJx7hPDKrJ2I2BCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1182-1179.delta" sparkle:deltaFrom="1179" length="870950" type="application/octet-stream" sparkle:edSignature="LgSIZzXopreSZbzsob6/T7BnJ3klNucwSXtZSyCoatzGdvkd8CIVNr/3AuEQF3GkV1TqeaVFrNdbbOLA7XmWCg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1182-1176.delta" sparkle:deltaFrom="1176" length="986766" type="application/octet-stream" sparkle:edSignature="069r4nLCRPtebqFWyxZqKGkQ5OcM4NTb2P3cKN1aIh6S4sSvB/DjgtpnWNFS2BC+MpHSEFttUgesJqAuflI/Dw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1182-1168.delta" sparkle:deltaFrom="1168" length="2709306" type="application/octet-stream" sparkle:edSignature="Ez4HkXFQhVJn4i7uMtQc5W+LF6/6O2cek4i0IMw5Vk5mNbLzriYleSsMYQCyfPuh/iaOG+aFihp+5J+jLq8QDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1182-1148.delta" sparkle:deltaFrom="1148" length="2777118" type="application/octet-stream" sparkle:edSignature="KJhULhSu5kQ1+3PfPQg5degRyj78ffiHbed+BBJqWlZgcCeBAPHafksINspYDl3pyXFOdmds9y9fP8Ag9YIuAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1182-1142.delta" sparkle:deltaFrom="1142" length="2916582" type="application/octet-stream" sparkle:edSignature="DmB5RwTOHx3h3ockaJ0QtV8iKP09ynLzqWnyZQ/Hn71+WJNEWAeVwcYluL5FXoOh90zvnET0OiVl/VPSDRijCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.6</title>
+            <pubDate>Fri, 14 Jul 2023 23:49:21 +0800</pubDate>
+            <sparkle:version>1179</sparkle:version>
+            <sparkle:shortVersionString>4.4.6</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Fixed: &quot;Generate Github Style TOC&quot; function is not working properly.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>修正：“生成 Github 格式的 TOC” 功能不正常的问题。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>修正：「生成 Github 格式的 TOC」 功能不正常的問題。</li>
+        </ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro446.zip" length="34821480" type="application/octet-stream" sparkle:edSignature="G2+tpB3DpByhBSVzVvp7PfjljvlTCBpAnUyhvkIROKtoDq7HM+4cZkP8WC7K8xUd6KO9tzAj2E78seT6kOUTBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1176.delta" sparkle:deltaFrom="1176" length="775542" type="application/octet-stream" sparkle:edSignature="J1MT0GZPlJuBTh/R0Mgtxl/0kSxKUIRWDMga+deMHNrnSfuuXydMAZzSyaQxuUAgWPRFZjbl+8yqf3zni5ljCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1168.delta" sparkle:deltaFrom="1168" length="2660050" type="application/octet-stream" sparkle:edSignature="m42vyyA1hHl3ztvAhtb8+GwBfW8kHydELuogNSUdkzQu9YxRZp7468FI3MPEa7KrHbPs5MZFiL/abvi8OOXsAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1148.delta" sparkle:deltaFrom="1148" length="2685054" type="application/octet-stream" sparkle:edSignature="EB+oIqzuwUbyr1Khr24dcVzf8RmdXbYUWoaKmhpyYTcgS3pFGMvANH7wsm4Z3B6s8Nuvj9fZw7/SpPzaYLsFAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1142.delta" sparkle:deltaFrom="1142" length="2854566" type="application/octet-stream" sparkle:edSignature="WPUv9ILSnl44v5iJx+7cF/6P0Qo3WWzAKxJM0dhCNh6QnzyK/GNoGVW3nj3bpOMX2NRVGn72yQ0QEbcCN/eWBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1179-1132.delta" sparkle:deltaFrom="1132" length="2920922" type="application/octet-stream" sparkle:edSignature="a5foAjMMUFAuvEzpEYF3EXinKNuOCoJ+o8LKRX7kd91iCf21WtEm7gvvdAHsiAHp19qEntKILuJi/ecB2Ft1DA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.5</title>
+            <pubDate>Fri, 30 Jun 2023 14:34:55 +0800</pubDate>
+            <sparkle:version>1176</sparkle:version>
+            <sparkle:shortVersionString>4.4.5</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>New feature: References between documents (backlinks) can be viewed in the outline view. If there are references in the document to other documents or referenced by other documents, they will be listed in the outline view. Use the menu: &quot;View - Outline View&quot; to view the outline view.</li>
+    <li>New feature: The reference syntax between documents adds support for locating the title in the document. in the editor, please place the cursor in the title, and then use the menu: &quot;Edit - Copy Note Link&quot; to generate the reference syntax. Then paste it in other documents. The original syntax is: <code>[Test](mweblib://16292173056753)</code>, the syntax to locate the title is: <code>[Test](mweblib://16292173056753#titile)</code>. Where <code>#title</code> means &quot;# + title or text in the document&quot;.</li>
+    <li>New feature: In Quick Search, press &quot;Cmd + Shift + C&quot; to copy the reference link of the selected document. During the writing process, when you need to cite other documents, you can use the &quot;Cmd + O&quot; key to open the quick search. After searching for the relevant document, press the &quot;Cmd + Shift + C&quot; key to copy the reference link of the document, and then press &quot; Cmd + V&quot; to paste to the current document.</li>
+    <li>Improvement: The preview can be zoomed in with two fingers. In addition, in the preview state, the shortcut key &quot;Cmd + +/-/0&quot; to zoom in and out of the font also has an effect on the preview.</li>
+    <li>Improvement: When exporting HTML, when using the default theme, the width of HTML content was changed from unlimited width to editor line width in preferences.</li>
+    <li>Improved: mermaid library upgraded to 10.2.3.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>新增：文档间的引用（双链）可以在大纲视图查看了，如果文档中有引用到其它文档或被其它文档引用，则会在大纲视图中列出来。使用菜单：“视图 - 大纲视图” 可以查看大纲视图。</li>
+    <li>新增：文档间的引用语法增加支持定位文档中的标题，使用办法是：在编辑器中，先把光标放到标题中，然后使用菜单：“编辑 - 复制文档引用链接” 来生成引用语法，再在其它文档粘贴即可。原本的语法为： <code>[测试](mweblib://16292173056753)</code>，定位到标题的语法为：<code>[测试](mweblib://16292173056753#titile)</code>。其中 <code>#title</code> 表示 “# + 文档中的标题或者文本”。</li>
+    <li>新增：在快速搜索下，按 “Cmd + Shift + C” 键可以复制选中的文档的引用链接。使用说明：在写作过程中，需要引用其它文档时，可以使用 “Cmd + O” 键打开快速搜索，搜索到相关文档后，按 “Cmd + Shift + C” 键复制文档的引用链接，再按 “Cmd + V” 键就可以粘贴到当前文档了。</li>
+    <li>改进：预览可以两指放大了。另外，在预览状态下，快捷键 “Cmd + +/-/0” 放大缩小字体对预览也有效果了。</li>
+    <li>改进：导出 HTML 时，在使用默认主题的情况下，HTML 内容的宽度由不限制宽度改为按偏好设置中的编辑器行宽度。</li>
+    <li>改进：mermaid 库升级到 10.2.3 。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+       <li>新增：文檔間的引用（雙鏈）可以在大綱視圖查看了，如果文檔中有引用到其它文檔或被其它文檔引用，則會在大綱視圖中列出來。使用菜單：「視圖 - 大綱視圖」 可以查看大綱視圖。</li>
+       <li>新增：文檔間的引用語法增加支持定位文檔中的標題，使用辦法是：在編輯器中，先把光標放到標題中，然後使用菜單：「編輯 - 複製文檔引用鏈接」 來生成引用語法，再在其它文檔粘貼即可。原本的語法為： <code>[測試](mweblib://16292173056753)</code>，定位到標題的語法為：<code>[測試](mweblib://16292173056753#titile)</code>。其中 <code>#title</code> 表示 「# + 文檔中的標題或者文本」。</li>
+       <li>新增：在快速搜索下，按 「Cmd + Shift + C」 鍵可以複製選中的文檔的引用鏈接。使用說明：在寫作過程中，需要引用其它文檔時，可以使用 「Cmd + O」 鍵打開快速搜索，搜索到相關文檔後，按 「Cmd + Shift + C」 鍵複製文檔的引用鏈接，再按 「Cmd + V」 鍵就可以粘貼到當前文檔了。</li>
+       <li>改進：預覽可以兩指放大了。另外，在預覽狀態下，快捷鍵 「Cmd + +/-/0」 放大縮小字體對預覽也有效果了。</li>
+       <li>改進：導出 HTML 時，在使用默認主題的情況下，HTML 內容的寬度由不限制寬度改為按偏好設置中的編輯器行寬度。</li>
+       <li>改進：mermaid 庫升級到 10.2.3 。</li>
+       <li>其它 Bug 修正及改進。</li>
+       </ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro445.zip" length="34820881" type="application/octet-stream" sparkle:edSignature="AiIuk9pX1gKXuBEr7mprtqs39nAFOvyD5qpeXmd35Sl7GUqggvNiaqUVMoXpYui8J8fYwjLESBKRXZ1S8iWKCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1168.delta" sparkle:deltaFrom="1168" length="2639178" type="application/octet-stream" sparkle:edSignature="o4SRoAle1llh13NY7kbT08/PkvrNqZDZ82JQnhIpK4nZXkqocHAcAHTRiboUxfqvmDmdn9uzQe6zI2lhYvZ6DQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1148.delta" sparkle:deltaFrom="1148" length="2707674" type="application/octet-stream" sparkle:edSignature="5nPntRYyD76SJdho13DDPuxXjzu6g/eiLhysHxXW9J9hVIi/hX4CvwHql42Xa3A6EkPAW+gc3RC5Z/M4jTvoAg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1142.delta" sparkle:deltaFrom="1142" length="2846574" type="application/octet-stream" sparkle:edSignature="2j6/UR8kgvnJOAEmZM4T857lN/jZOm2ViCgq+D+ZSVP4hMwl3orvMJYrsrrGHMBzwwJkn7KSdu06/Mpd3n+6Cw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1132.delta" sparkle:deltaFrom="1132" length="2911894" type="application/octet-stream" sparkle:edSignature="pzQhPkqrXcPImM1eeD5Egvsp/P2mYDH1sTkIbF6rOvZR0VIQ9wTaFdPS/QQy17oWfjEc/EZihX/qP5kjUrQtBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1176-1118.delta" sparkle:deltaFrom="1118" length="2916230" type="application/octet-stream" sparkle:edSignature="f8jxkrKHVmYTgfNqmIGPuSIOd3rHqfWgSYHGWnaz1EDqlMk9WCq9GeMS4UsdSceiYZDOC30ne3uOxI6hYQ5eDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.4</title>
+            <pubDate>Mon, 10 Apr 2023 22:44:49 +0800</pubDate>
+            <sparkle:version>1168</sparkle:version>
+            <sparkle:shortVersionString>4.4.4</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Improvement: Improved the color scheme of the app's interface and various built-in themes.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>改进：对 App 的界面配色和内置主题的配色进行了改进。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>改進：對 App 的界面配色和內置主題的配色進行了改進。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro444.zip" length="34157696" type="application/octet-stream" sparkle:edSignature="4WCw2u9zs60d8Qp7RiLaEq1Q99q/C/CtRZqNGtmY+OQKKEKGNF3o65Cj7hbaLCc5wZAQZlg58ab3+ip3SSbbCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1148.delta" sparkle:deltaFrom="1148" length="877626" type="application/octet-stream" sparkle:edSignature="V7nV3PbX+vHyboa+zXPR8u64+RhBJKUcKdimqZ/wtlxyiFiVUi11cnr2ZAu9BW+2/Uw7uPgjcH6YFV9emfQBAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1142.delta" sparkle:deltaFrom="1142" length="1216518" type="application/octet-stream" sparkle:edSignature="begNRhsUdh3r4rriiSXSWZ1tWlg+xOwAf9QSbJQS7bo2Oa7nWkvM0vdJSyTWpiuaYcsMyQWxDSibtMMCnOUNAw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1132.delta" sparkle:deltaFrom="1132" length="1340538" type="application/octet-stream" sparkle:edSignature="Er6ddOzWvHSdUkhWyqxe1166Uynh7xaqlZ3mD0hlTXRiFdBej0JNtcJUyzxX5tjQZ0aqV0xfPFiKo8+JbpF7Ag=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1118.delta" sparkle:deltaFrom="1118" length="1357490" type="application/octet-stream" sparkle:edSignature="K5zyIQnk0sNKDsf0D7XiXfSZ6V5XXpXHy5rRd+BiNrURAEKcBdR3V0JAMxhYblIULM3CUVXZhJvgqGU9cndFDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1168-1113.delta" sparkle:deltaFrom="1113" length="1559474" type="application/octet-stream" sparkle:edSignature="6vxJ8WFPwpE/Dr9HqKWNypHJYlES6CbFqzufRk99/8+dyQSsg5/iC0biaLZdVWterfNeX2puJnUm4t/4i/KzDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.3</title>
+            <pubDate>Fri, 07 Apr 2023 21:15:09 +0800</pubDate>
+            <sparkle:version>1148</sparkle:version>
+            <sparkle:shortVersionString>4.4.3</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>New feature: Added Focus Mode. In Focus Mode, all elements on the interface are hidden except for the &quot;Exit Focus Mode&quot; and &quot;Keep Window on Top&quot; buttons. You can enter Focus Mode through the &quot;View - Focus Mode&quot; menu or the &quot;eye icon button - Focus Mode&quot; on the toolbar. Additionally, a &quot;Focus Mode&quot; button has been added to the custom toolbar panel for your convenience.</li>
+    <li>Improvement: Improved the document import. The document import feature is now a separate import window. You can choose to import an entire folder and also convert the folder structure into the Library's classification tree. Before importing, the system will list the files to be imported and display them as a list for confirmation.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>新增：专注模式。在专注模式下，界面上的所有元素都会被隐藏，只留下 &quot;退出专注模式&quot; 和 &quot;置顶窗口&quot; 两个按钮。您可以通过菜单 &quot;视图 - 专注模式&quot; 或工具栏上的 &quot;眼睛图标的按钮 - 专注模式&quot; 进入专注模式。此外，我们还在自定义工具栏面板上增加了 &quot;专注模式&quot; 按钮，方便您使用。</li>
+    <li>改进：文档导入功能。现在，文档导入到文档库的功能已经变为独立的导入窗口。您可以选择整个文件夹进行导入，同时还可以将文件夹的结构转换为文档库的分类树。在导入前，系统会列出将要导入的文件，并以列表形式显示，方便您确认。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>新增：專注模式。在專注模式下，界面上的所有元素都會被隱藏，只留下 &quot;退出專注模式&quot; 和 &quot;置頂窗口&quot; 兩個按鈕。您可以通過菜單 &quot;視圖 - 專注模式&quot; 或工具欄上的 &quot;眼睛圖標的按鈕 - 專注模式&quot; 進入專注模式。此外，我們還在自定義工具欄面板上增加了 &quot;專注模式&quot; 按鈕，方便您使用。</li>
+        <li>改進：文檔導入功能。現在，文檔導入到文檔庫的功能已經變為獨立的導入窗口。您可以選擇整個文件夾進行導入，同時還可以將文件夾的結構轉換為文檔庫的分類樹。在導入前，系統會列出將要導入的文件，並以列表形式顯示，方便您確認。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro443.zip" length="34162690" type="application/octet-stream" sparkle:edSignature="eg8ajWm+5j78CDfl+rLJNj2jhfKtiuAdSyB3K5Wlz0ICqg2EZ2QeYba8Pwh5Bpyj8rbOTo7oFeY1d5RDH/THDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1148-1142.delta" sparkle:deltaFrom="1142" length="1159650" type="application/octet-stream" sparkle:edSignature="sTkNoxZz5yHcW9ycOK8m6/+vyCuXNdaPFltbgqxMEi2TbpxHPdx4i1Nh7ssyLG/zTz0m7HbK/U1/iNE0x6yaBQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1148-1132.delta" sparkle:deltaFrom="1132" length="1281086" type="application/octet-stream" sparkle:edSignature="MKea1ZMiXHk0r0rSm2MBQaDuaH3vk0QtlRrYNOftdjCv9qfpOeRw0lFRrsGsSks6yjPbbCyEN5P6DBDJCcs8AQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1148-1118.delta" sparkle:deltaFrom="1118" length="1283862" type="application/octet-stream" sparkle:edSignature="/rt9dw/+2heZVAsEIuYqCptsPTMrDkNDTLb9MBomiXqsPdZwlNRxoQG/qYXgqWlm7t3oiFyYIAYXP2D7joKmBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1148-1113.delta" sparkle:deltaFrom="1113" length="1529630" type="application/octet-stream" sparkle:edSignature="dht10l6dUBg4SZsnKBlYwKXrhxgXiUeg1+3egcZWy7M67O1ApqiHnezLNTufVp77LaaG7gfWQO8Fi93eXEzhDw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1148-1086.delta" sparkle:deltaFrom="1086" length="3378298" type="application/octet-stream" sparkle:edSignature="NajlzjTKhryNfKem+kMRhu5uNzTKuATKsSzDuHuLgDUSZatWYTqtfdZIBK4VVwInGeW7AsTfyKpmbn22oIVVAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.2</title>
+            <pubDate>Mon, 20 Mar 2023 20:27:29 +0800</pubDate>
+            <sparkle:version>1142</sparkle:version>
+            <sparkle:shortVersionString>4.4.2</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Added: Added recent searches. After searching, press Enter key to save the searched keywords to recent searches. Click the search icon on the left of the search box to view recent search keywords.</li>
+    <li>Added: Added search result filtering. In the search result list, click the &quot;Filter&quot; button to further filter the results by &quot;Categories&quot;, &quot;Tags&quot; and &quot;Title Only&quot;.</li>
+    <li>Added: When opening a document in the search results, the find panel will be opened directly, no need to press the &quot;Command + F&quot; shortcut again.</li>
+    <li>Added: Custom theme adds three color customization items, namely: the Library UI second column background color, the Tab background color, and the Tab dividing line color.</li>
+    <li>Added: In the default theme, the Library UI second column background color of the Solarized Light, Solarized Dark, Tomorrow Blue and Monokai themes has been modified. If you need to change back to the original color, please customize the theme .</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>新增：搜索增加最近搜索功能，搜索后按 Enter 键就可以保存搜索的关键字到最近搜索中，点击搜索框左边的搜索图标就可以查看最近的搜索关键字。</li>
+    <li>新增：搜索增加搜索结果过滤功能，在搜索结果列表中，点击 “过滤” 按钮，就可以按“分类”、“标签”、“仅搜索标题” 对结果进行进一步的过滤。</li>
+    <li>新增：打开搜索结果中的文档时，会直接打开查找面板，不再需要再按 “Command + F” 快捷键。</li>
+    <li>新增：自定义主题增加三个颜色自定义项目，分别为：文档库界面的第二列的背景颜色、标签（Tab）的背景颜色、标签（Tab）分割线的颜色。</li>
+    <li>新增：默认的主题中，Solarized Light、Solarized Dark、Tomorrow Blue 和Monokai 主题的文档库界面的第二列的背景颜色有所修改，如果需要改回原来的颜色，请自定义主题就可以了。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>新增：搜索增加最近搜索功能，搜索後按 Enter 鍵就可以保存搜索的關鍵字到最近搜索中，點擊搜索框左邊的搜索圖標就可以查看最近的搜索關鍵字。</li>
+        <li>新增：搜索增加搜索結果過濾功能，在搜索結果列表中，點擊 「過濾」 按鈕，就可以按「分類」、「標籤」、「僅搜索標題」 對結果進行進一步的過濾。</li>
+        <li>新增：打開搜索結果中的文檔時，會直接打開查找面板，不再需要再按 「Command + F」 快捷鍵。</li>
+        <li>新增：自定義主題增加三個顏色自定義項目，分別為：文檔庫界面的第二列的背景顏色、標籤（Tab）的背景顏色、標籤（Tab）分割線的顏色。</li>
+        <li>新增：默認的主題中，Solarized Light、Solarized Dark、Tomorrow Blue 和Monokai 主題的文檔庫界面的第二列的背景顏色有所修改，如果需要改回原來的顏色，請自定義主題就可以了。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro442.zip" length="34079769" type="application/octet-stream" sparkle:edSignature="+AWb4EcFNwp+5ecirm+lrYXJM4uyfy6qQ8f7+H0OO5feLY9TST+XIPEQ+eQqAqR9dRy+G6DXJwL9MzhY/TSEDA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1132.delta" sparkle:deltaFrom="1132" length="1038918" type="application/octet-stream" sparkle:edSignature="fBk7jjrgqwB1P4fMiFuMz1TL0XTyUBnXUOPk9aTv42a3fiBoBtCUNPXGz9vbuAXpJl9ZQCx+prUSa5vA/TpVDg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1118.delta" sparkle:deltaFrom="1118" length="1077334" type="application/octet-stream" sparkle:edSignature="jsWHSLOT/OkLKv7wTPTxXGbqJKxydeL67cVMBHKy8a/6Obhi4ZBJlzwMqcqSVHdLdqbdc36tOp0Wzq3ycLe7CA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1113.delta" sparkle:deltaFrom="1113" length="1349590" type="application/octet-stream" sparkle:edSignature="uB/Fu5xTAW0aXkPgNj0Rdz/1axUt7VzTnG/h3Wwaqs/hutVPyztDggh6A2l43f1sQ8m4VZTeh/RJbmXr7ZAuBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1086.delta" sparkle:deltaFrom="1086" length="3101990" type="application/octet-stream" sparkle:edSignature="KWHPCRwZ0rDViTtwDVZKutjyyeDc+QgDT1DE9+9cz5Uw7vCvd3rwmqZEvwjLm9RrBcK0wO6hgiOEI550cSyBDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1142-1079.delta" sparkle:deltaFrom="1079" length="4653258" type="application/octet-stream" sparkle:edSignature="oSqPeIkkWIYtCgyogHKmZuvpRLJy1OJcuznHTvNl4HFubjy9pnnq8SAR/Mk1NWQRPAIiFVbkv45Jm98zuCGeAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.4.1</title>
+            <pubDate>Fri, 10 Mar 2023 16:37:50 +0800</pubDate>
+            <sparkle:version>1132</sparkle:version>
+            <sparkle:shortVersionString>4.4.1</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Fixed: In the preview mode while editing, the preview will flicker when editing a document.</li>
+    <li>Changed: The shortcut for strikethrough is changed to: cmd + shift + e.</li>
+    <li>Changed: The Markdown link generated when inserting an attachment is changed to add an extension and line break.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>修正：边编辑边预览模式下，编辑文档时，预览会闪动的 Bug。</li>
+    <li>改动：删除线的快捷键改为：cmd + shift + e。</li>
+    <li>改动：插入附件时生成的 Markdown 链接改为加上扩展名并自动换行。</li>
+    <li>其它 Bug 修正及改进。</li>
+    </ul>
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>修正：邊編輯邊預覽模式下，編輯文檔時，預覽會閃動的 Bug。</li>
+        <li>改動：刪除線的快捷鍵改為：cmd + shift + e。</li>
+        <li>改動：插入附件時生成的 Markdown 鏈接改為加上擴展名並自動換行。</li>
+        <li>其它 Bug 修正及改進。</li>
+        </ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro441.zip" length="34056852" type="application/octet-stream" sparkle:edSignature="jNWwmWJUyJeyV4lyZomlaHtKUOqgOwLdZqgbiE1ihWwZB+YoAiv1pryidOKKhfy1jMELhOshrKq0vzhtbRq2Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1118.delta" sparkle:deltaFrom="1118" length="643750" type="application/octet-stream" sparkle:edSignature="653sr2Fsmu+6/ZlYOAbyInbjlJzzFBDmhkHjrmIBX8GvYa07rUZ4TshfC2y1/pGud2sW/XXUiaEQuZFJA23HBw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1113.delta" sparkle:deltaFrom="1113" length="1149926" type="application/octet-stream" sparkle:edSignature="/6gEvc4myQxuKPD6Vuc9rGXx5zyfy8w/v6Cb57T9P5axtbv+svkAb/QhfYPk5RvW71qh+SKYmx/cdjnjJfrTAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1086.delta" sparkle:deltaFrom="1086" length="2904078" type="application/octet-stream" sparkle:edSignature="fzbhAu3Av1Uq/K3LdXeDlS6W+T756i5U611cVQ3llcaJ4zJgP35yAa8TF0hsT8PkDLt8xae2Vmp7/cSe169PCw=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1079.delta" sparkle:deltaFrom="1079" length="4523194" type="application/octet-stream" sparkle:edSignature="37qZodBFTW34X81v3uirW60e1dTb9L0T0ClUrtrPQ+A4SViGmAAzKVSYEIZ/f4/xACF/0rrFMnXNRkmIcOgHDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1132-1072.delta" sparkle:deltaFrom="1072" length="4622002" type="application/octet-stream" sparkle:edSignature="j+ZvCpgcjO26MIsE1xmbDYmbDIsF9f3asFwJgsyCUCugtJ1PgMz2s0nynyZpN7oHYBmX76YJ6Ka3FTsiNU8DCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.9</title>
+            <pubDate>Mon, 27 Feb 2023 16:27:10 +0800</pubDate>
+            <sparkle:version>1118</sparkle:version>
+            <sparkle:shortVersionString>4.3.9</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>Urgently fix the bug of excessive memory usage in the previous version.</li>
+    </ul>
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>紧急修正上一个版本内存占用过多的 bug。</li>
+    </ul>
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>緊急修正上一個版本內存佔用過多的 bug。</li>
+        </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro439.zip" length="34060461" type="application/octet-stream" sparkle:edSignature="OjhxcFLocjTT0heonIwP3VcG6er1vjBe072W4eCGjZJRk79kothqpOWTHsXHCmC0yNe538/KUEoI4AbaM3RDBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1113.delta" sparkle:deltaFrom="1113" length="1038814" type="application/octet-stream" sparkle:edSignature="X/ko8xlE1PCxCp/3h9CFT7Isubr6wJ6rVP59D2EEjjEkash7bKlSQLF+7BFfulfuMICHLfW/oHO7xdGPPSm0DQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1086.delta" sparkle:deltaFrom="1086" length="2887414" type="application/octet-stream" sparkle:edSignature="YCsIi36APzVn0u3lQikdGjMzrjmRq4q1tGAfuVMGgmtP/J8QfFBuYqSKRvqHTpKR/0KOP7RR6f1x+82QTErSDQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1079.delta" sparkle:deltaFrom="1079" length="4535974" type="application/octet-stream" sparkle:edSignature="gRcKiotJ92hhOIhicOdjW2TrdFFoL/MkxcCJyiE63/KwhEFy9QQeNPmDlizEjJDogL4ZYXYU41rTm24DSKvTBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1072.delta" sparkle:deltaFrom="1072" length="4625158" type="application/octet-stream" sparkle:edSignature="PSTGY3m5cbHgBYqCfo9I8Hno06XLdGuZIrjukvPqVvNOXzTauTKw3Hyq+fZpiJmlTFrGtya90AaIjSbfe7gJAQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1118-1052.delta" sparkle:deltaFrom="1052" length="4711978" type="application/octet-stream" sparkle:edSignature="7Q3ghDJ9/yg9+uC33XL3nm/17qXvngMY0DvBz4m+mLxA2LCri0sD8WGKTLJ5bIIGdb74mw+nhFOJR3fE+fwpDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.8</title>
+            <pubDate>Tue, 07 Feb 2023 17:31:44 +0800</pubDate>
+            <sparkle:version>1113</sparkle:version>
+            <sparkle:shortVersionString>4.3.8</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+
+    <ul>
+    <li>New: Now you can pin the note in the Library to the top. In the list, right-click the note and select &quot;Pinned Note&quot;.</li>
+    <li>New: Added a &quot;Copy&quot; button to the upper right corner of the code block in the preview.</li>
+    <li>New: Quick Notes can be switched open and close using the set global shortcut. The first time you press the key, it will be open, and the second time you press the key, it will be close.</li>
+    <li>New: Export as Image now has the option to export 920 width images.</li>
+    <li>Fixed: The bug that the action before the execution of the website publishing script is set but has no effect.</li>
+    <li>Fixed: When the sorting of website classification is custom drag and drop sorting, the &quot;previous page, next page&quot; order of the generated static website is incorrect.</li>
+    <li>Updated mermaid library and mathjax library.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>新增：现在可以把文档库中的文档置顶了，在列表中，右键要置顶的文档，选择“置顶文档”即可。</li>
+    <li>新增：预览中的代码块的右上角增加了“复制”按钮。</li>
+    <li>新增：快速笔记可以使用设置了的全局快捷来切换打开和关闭了，第一次按键打开，再次按键就关闭。</li>
+    <li>新增：导出为图片现在可以选择导出 920 宽的图片了。</li>
+    <li>修正：设置了网站发布脚本执行前的动作后却无效果的 bug。</li>
+    <li>修正：当网站分类的排序为自定义拖拽排序时，生成的静态网站的“上一页、下一页”顺序不正确的 bug。</li>
+    <li>更新了 mermaid 库和 mathjax 库。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>新增：現在可以把文檔庫中的文檔置頂了，在列表中，右鍵要置頂的文檔，選擇「置頂文檔」即可。</li>
+        <li>新增：預覽中的代碼塊的右上角增加了「複製」按鈕。</li>
+        <li>新增：快速筆記可以使用設置了的全局快捷來切換打開和關閉了，第一次按鍵打開，再次按鍵就關閉。</li>
+        <li>新增：導出為圖片現在可以選擇導出 920 寬的圖片了。</li>
+        <li>修正：設置了網站發佈腳本執行前的動作後卻無效果的 bug。</li>
+        <li>修正：當網站分類的排序為自定義拖拽排序時，生成的靜態網站的「上一頁、下一頁」順序不正確的 bug。</li>
+        <li>更新了 mermaid 庫和 mathjax 庫。</li>
+        <li>其它 bug 修正及改進。</li>
+        </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro438.zip" length="34084831" type="application/octet-stream" sparkle:edSignature="jDUht1ojh6r/f9ls4B7WzSBw/FtoCB+0rCHwrbjvw75tbW3QgkBK9R/VDlmho3pGy1EUsQ5lZUOwjgb3yzoNCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1113-1072.delta" sparkle:deltaFrom="1072" length="4753058" type="application/octet-stream" sparkle:edSignature="SDQ+pg6g4pnz7DQPx24HmkL866xrvRdeY5vEMyu5GeUmaXIKwgbuu2potM7nUYUyDseKCtsfOypBykIGwrG4CA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1113-1052.delta" sparkle:deltaFrom="1052" length="4777730" type="application/octet-stream" sparkle:edSignature="RP5JsPtwTmj/bqAQ9Pc7JCsJseoUa/I/2DBplri7RJxklCRftkfGUlc2shrUGNGWh0fsz3MlphOVWjG63GjlDA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1113-1042.delta" sparkle:deltaFrom="1042" length="4875994" type="application/octet-stream" sparkle:edSignature="fudhJMthw1PhWK8JwkupPfyhFlafcp5Ke4k5vMqVuL182+ZiyZdwOurEa0ahg9xGtSI/4D5R7okjVXSh+GH6BA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.7</title>
+            <pubDate>Thu, 13 Oct 2022 13:38:28 +0800</pubDate>
+            <sparkle:version>1086</sparkle:version>
+            <sparkle:shortVersionString>4.3.7</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Bug fixes and improvements.</li>
+    </ul>
+
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>Bug 修正及改进。</li>
+    </ul>
+
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>Bug 修正及改進。</li>
+    </ul>
+
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro437.zip" length="32670225" type="application/octet-stream" sparkle:edSignature="/biC+uYyLp81YwwujK6o9CJv7Nvvr4v/jwHUc2iFJjbNdWXdZSOQa1eKDN0xW7sr5mBs3ImnVuzbPBhgiQlCCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1079.delta" sparkle:deltaFrom="1079" length="2496910" type="application/octet-stream" sparkle:edSignature="JconL/XoJS/BlIDdRFEdAoeMlyjVnfxZMysM+vXEqZ6+UjujUv5pViiJuwTPPQ5/UGWxOuq+FE1yIHpe4hiOCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1072.delta" sparkle:deltaFrom="1072" length="2617434" type="application/octet-stream" sparkle:edSignature="PemU7MwqnFDKmFfjXUE7v5FTpFwF19BkEce6ANLPtr7kPsKEl0nQ1OsHmE4HYdpmoa6n6T0w2Vj+NlemzjxhCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1052.delta" sparkle:deltaFrom="1052" length="2703138" type="application/octet-stream" sparkle:edSignature="QtfjGKx1W+BXN89/7715Q93H8U5DLF5CvJT9ouqSlSbffuMEx1qru7qrQs7gcCr/MRQi1kAMTRPeVPXSV6BNBA=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1086-1042.delta" sparkle:deltaFrom="1042" length="2821274" type="application/octet-stream" sparkle:edSignature="O4v6551WXMbYrJIHG7IKtcZ9eQyCMusVM/dYsVn25DFBlr+22NWBGJghBJwk82pa59Yoy/CnXAxSTcQ0rg1YDg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.5</title>
+            <pubDate>Thu, 01 Sep 2022 23:58:35 +0800</pubDate>
+            <sparkle:version>1079</sparkle:version>
+            <sparkle:shortVersionString>4.3.5</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>The editor can now set multiple fonts. You can now set different fonts for headings, main content, and code blocks, as well as apply the fonts to UI and previews. How to use: &quot;Preferences - General - Font setting dropdown menu - Add or edit multiple fonts...&quot;.</li>
+    <li>In the menu of the &quot;eye&quot; button on the toolbar, add a switch option: &quot;Show open button when the cursor is over a link&quot;. When unchecked, the open button will not be show when the cursor is over to the link in the editor.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>编辑器现在可以设置多种字体了。你现在可以为标题、主要内容和代码块设置不同的字体，还可以把所设置的字体应用到 UI 和预览上。使用方法为：“偏好设置 - 通用设置 - 字体选择下拉菜单 - 新增或编辑多种字体”。</li>
+    <li>工具栏上的 “眼睛” 按钮的菜单中，增加开关选项：“光标移动到链接上时显示打开按钮”。取消勾选后，光标移动到编辑器中的链接时就不会显示那个打开按钮了。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>編輯器現在可以設置多種字體了。你現在可以為標題、主要內容和代碼塊設置不同的字體，還可以把所設置的字體應用到 UI 和預覽上。使用方法為：「偏好設置 - 通用設置 - 字體選擇下拉菜單 - 新增或編輯多種字體」。</li>
+    <li>工具欄上的 「眼睛」 按鈕的菜單中，增加開關選項：「光標移動到鏈接上時顯示打開按鈕」。取消勾選後，光標移動到編輯器中的鏈接時就不會顯示那個打開按鈕了。</li>
+    <li>其它 bug 修正及改進。</li>
+    </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro435.zip" length="32893708" type="application/octet-stream" sparkle:edSignature="HYlntWcoGmVntysAYMHXv+i4dh7GxEFr0vpkykDJLtwu9Yk/Z38H1VA4csaIa79YXGFsFZ0ZZB4QjAVSfHNCCw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1079-1072.delta" sparkle:deltaFrom="1072" length="1004922" type="application/octet-stream" sparkle:edSignature="dj4JjE6/D5PsDN+QXYolCQi7MWhtgRGc3fepZXUvDyWXT0WxFHSH8g1kkjnzuTRWbvstVR390HhtimLsYnErCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1079-1052.delta" sparkle:deltaFrom="1052" length="1173562" type="application/octet-stream" sparkle:edSignature="ujWkfiPrdjOALV/PBq+3Xz58N+GYsCY79D5k8u3QZ3IXrH5EUdQU+7V1Wfk9kx16tBaKOD0sCbxgnI6ySsRYBg=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1079-1042.delta" sparkle:deltaFrom="1042" length="1415378" type="application/octet-stream" sparkle:edSignature="GjMCs0Vh+QFiA6QTSBBwnb0T2LvLlAwZydgyUzTjbYBC8w43uJV4xCKNKuowo8WqftE8mXeQgyuAXDusH1tUAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.3</title>
+            <pubDate>Tue, 16 Aug 2022 23:04:02 +0800</pubDate>
+            <sparkle:version>1072</sparkle:version>
+            <sparkle:shortVersionString>4.3.3</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Library mode Change Icon interface now can search the icons.</li>
+    <li>The Library list style adds an item: &quot;One Line Title and Content Style&quot;, the original &quot;One Line Title Style&quot; style is changed back to the original way.</li>
+    <li>The editor optimizes the operation of opening links: when the mouse pointer is moved over the link, a button will be displayed beside the link. Click this button to open the link, no longer need to hold down the CMD key and then click the link title.</li>
+    <li>Fixed an issue where some special documents could not be jumped when clicking the title in the outline view in preview-only mode.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>文档库修改图标的界面加上搜索图标的功能。</li>
+    <li>文档库列表样式显示增加一项：“标题和内容显示成一行”，原来的“仅显示标题”样式改回原来的方式。</li>
+    <li>编辑器优化打开链接的操作：当鼠标指针移动到链接上时，会在链接边上显示一个按钮，点击这个按钮就可以打开链接，不再需要按住 CMD 键再点击链接标题。</li>
+    <li>修正在仅预览模式下，点击大纲视图中的标题时，一些特殊的文档会无法跳转的问题。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+    <li>文檔庫修改圖標的界面加上搜索圖標的功能。</li>
+    <li>文檔庫列表樣式顯示增加一項：「標題和內容顯示成一行」，原來的「僅顯示標題」樣式改回原來的方式。</li>
+    <li>編輯器優化打開鏈接的操作：當鼠標指針移動到鏈接上時，會在鏈接邊上顯示一個按鈕，點擊這個按鈕就可以打開鏈接，不再需要按住 CMD 鍵再點擊鏈接標題。</li>
+    <li>修正在僅預覽模式下，點擊大綱視圖中的標題時，一些特殊的文檔會無法跳轉的問題。</li>
+    <li>其它 bug 修正及改進。</li>
+    </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro433.zip" length="32849791" type="application/octet-stream" sparkle:edSignature="owvd0VTCI0wlNCsFSQ97FffEg1RImVhdQx/wRAa54JNsl9KX0+n6u2ky3+yfLFl1JlFUAo3CpduCWLIvR+9dDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1072-1052.delta" sparkle:deltaFrom="1052" length="935410" type="application/octet-stream" sparkle:edSignature="SO33bcX5i0we2ybyChLa9zimUS0qDzQM4rI0f0ALubVPJPR/3DI4K7p9qT3/SYMplhd+8DwHblcAj4uRMjSkCQ=="/>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1072-1042.delta" sparkle:deltaFrom="1042" length="1221214" type="application/octet-stream" sparkle:edSignature="o0Y5AzW4nE5w3ZYtFQ++TkfFyR0Shic0IKbPGXV31fzQ8oPjHNbe/KkA/tBh7jsH8zgHRcx4Az16U6mPHNclBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.2</title>
+            <pubDate>Thu, 11 Aug 2022 15:27:18 +0800</pubDate>
+            <sparkle:version>1052</sparkle:version>
+            <sparkle:shortVersionString>4.3.2</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+    <ul>
+    <li>Added the &quot;Change Icon&quot; feature to the category of the Library mode, which requires macOS 11 at least. There will be over 3000 icons to choose from on macOS 12. Please try &quot;Right-click Category - Change Icon&quot; to use this feature.</li>
+    <li>Optimize the list style of &quot;Title Only Style&quot; in the Library mode.</li>
+    <li>In addition to automatically new note regularly, Quick Notes also adds a &quot;Manually New Note&quot; option. After selecting &quot;Manually New Note&quot;, you can click the &quot;+&quot; button on the Quick Notes interface to add new note.</li>
+    <li>Fixed the incorrect time point when Quick Notes new note regularly.</li>
+    <li>The cmark-gfm library is updated to 0.29.0.gfm.4. This library is used to parse markdown syntax highlighting and generate html. It is very important. If you find any problems, feedback is welcome.</li>
+    <li>Other bug fixes and improvements.</li>
+    </ul>
+
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+    <ul>
+    <li>文档库的分类增加 “修改图标” 功能，此功能最低要求 macOS 11 。另外，在 macOS 12 上将会有 3000 多个图标可供选择。“右键分类 - 修改图标” 即可以使用此功能。</li>
+    <li>优化文档库的“仅显示一行标题”的列表样式。</li>
+    <li>快速笔记除了自动定期新增文档外，还增加了 “手动新增文档” 选项。选择 “手动新增文档” 后，新增文档可以点击 快速笔记 界面上的 “+” 按钮。</li>
+    <li>修正了快速笔记定期新增文档时的时间点不正确的问题。</li>
+    <li>cmark-gfm 库更新到 0.29.0.gfm.4，这个库是用来解析 markdown 语法高亮和生成 html 的，非常重要，如果有发现任何问题，欢迎反馈。</li>
+    <li>其它 bug 修正及改进。</li>
+    </ul>
+
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+    <ul>
+        <li>文檔庫的分類增加 「修改圖標」 功能，此功能最低要求 macOS 11 。另外，在 macOS 12 上將會有 3000 多個圖標可供選擇。「右鍵分類 - 修改圖標」 即可以使用此功能。</li>
+        <li>優化文檔庫的「僅顯示一行標題」的列表樣式。</li>
+        <li>快速筆記除了自動定期新增文檔外，還增加了 「手動新增文檔」 選項。選擇 「手動新增文檔」 後，新增文檔可以點擊 快速筆記 界面上的 「+」 按鈕。</li>
+        <li>修正了快速筆記定期新增文檔時的時間點不正確的問題。</li>
+        <li>cmark-gfm 庫更新到 0.29.0.gfm.4，這個庫是用來解析 markdown 語法高亮和生成 html 的，非常重要，如果有發現任何問題，歡迎反饋。</li>
+        <li>其它 bug 修正及改進。</li>
+        </ul>
+
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro432.zip" length="32832519" type="application/octet-stream" sparkle:edSignature="nhdRbLmQ8GA92MJC/GYhRIMd4nzjgQvPoAdpIwtgNbFJuTMBYcaAUTGNHBJRv+anpaUbFnpMUsLwTyM9pzTXCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://cdn.mwebapp.cn/sparkle/MWeb%20Pro1052-1042.delta" sparkle:deltaFrom="1042" length="1144762" type="application/octet-stream" sparkle:edSignature="bcl+B1kdKpvSojueq6h6V08jHwsgGsF4RG3jVOojAu8MKdGmjYKOBxf0BpuX9ZvUt8S3W4NXWyR6RfKG/d8dAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>4.3.1</title>
+            <pubDate>Fri, 01 Jul 2022 13:01:57 +0800</pubDate>
+            <sparkle:version>1042</sparkle:version>
+            <sparkle:shortVersionString>4.3.1</sparkle:shortVersionString>
+            <description xml:lang="en"><![CDATA[ 
+<ul>
+<li>Added: Now when opening a document, it will automatically scroll to the position when the document was last closed.</li>
+<li>Added: Starting from this version, the non-Store version supports automatic updates, and it is no longer necessary to go to the official website to download.</li>
+<li>Added: Added &quot;Automatic Equation Numbering&quot; option for LaTeX equations, in &quot;Preferences - General - LaTeX more settings&quot;.</li>
+<li>Added: holding a option key and click a category in the Library or a folder in External folder mode will &quot;expand/collapse&quot; all subcategories.</li>
+<li>Improved: When importing a theme, if an existing name is detected, it will first ask whether to overwrite the theme with the same name.</li>
+<li>Other bug fixes and improvements.</li>
+</ul>
+ ]]></description>
+            <description xml:lang="zh"><![CDATA[ 
+<ul>
+<li>增加：现在打开文档时，会自动滚动到上一次关闭文档时的位置。</li>
+<li>增加：从这个版本开始，非 Store 版支持自动更新了，不再需要去官网下载了。</li>
+<li>增加：LaTeX 公式增加 “数学公式自动编号” 选项，在 “偏好设置 - 通用设置 - LaTeX 的更多设置” 中 。</li>
+<li>增加：按住 option 键点击文档库的分类或外部文件夹模式的文件夹时，会 “展开/收起” 所有子分类。</li>
+<li>改进：导入主题时，如果检测到已存在的名称，会先询问是否覆盖同名的主题。</li>
+<li>其它 bug 修正及改进。</li>
+</ul>
+]]></description>
+            <description xml:lang="zh-Hant"><![CDATA[
+<ul>
+<li>增加：現在打開文檔時，會自動滾動到上一次關閉文檔時的位置。</li>
+<li>增加：從這個版本開始，非 Store 版支持自動更新了，不再需要去官網下載了。</li>
+<li>增加：LaTeX 公式增加 「數學公式自動編號」 選項，在 「偏好設置 - 通用設置 - LaTeX 的更多設置」 中 。</li>
+<li>增加：按住 option 鍵點擊文檔庫的分類或外部文件夾模式的文件夾時，會 「展開/收起」 所有子分類。</li>
+<li>改進：導入主題時，如果檢測到已存在的名稱，會先詢問是否覆蓋同名的主題。</li>
+<li>其它 bug 修正及改進。</li>
+</ul>
+]]></description>
+            <sparkle:minimumSystemVersion>10.13</sparkle:minimumSystemVersion>
+            <enclosure url="https://cdn.mwebapp.cn/sparkle/MWebPro431.zip" length="32759942" type="application/octet-stream" sparkle:edSignature="19iLsEJoi62mRVaDWKVcrIsyfS/dvSkOIyYPLv10ozeKC5WgqXD24Tc+N3zfMcZH3JvpN+XYiX9NfyQ8ld4PBg=="/>
+        </item>
+    </channel>
+</rss>
