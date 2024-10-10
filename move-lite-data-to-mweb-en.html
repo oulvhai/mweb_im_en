@@ -1,0 +1,214 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="atom.xml" rel="alternate" title="MWeb" type="application/atom+xml">
+    <title> 
+	  
+  	Move the MWeb Lite Library's Data to MWeb - MWeb
+  	
+  	</title>
+     <link rel="icon" sizes="192x192" href="asset/icon_192.png" />
+    <link rel="shortcut icon" href="asset/icon_64.png" type="image/png" />
+
+    <link href="asset/css/bootstrap.min.css" rel="stylesheet">
+    <link href="asset/css/style.css" rel="stylesheet">
+    <script src="asset/js/jquery.min.js"></script>
+    <script src="asset/js/bootstrap.min.js"></script>
+    <script src="asset/js/docs.js"></script>
+    <script src="asset/highlightjs/highlight.pack.js"></script>
+	<link href="asset/highlightjs/styles/github.css" media="screen, projection" rel="stylesheet" type="text/css">
+	<script>hljs.initHighlightingOnLoad();</script>
+    <!--[if lt IE 9]>
+      <script src="asset/js/html5shiv.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+           
+        <a class="menu-index blog-nav-item" target="_self" href="index.html">Home</a>
+        
+        <a class="menu-help blog-nav-item" target="_self" href="en-help.html">Documentation</a>
+        
+        <a class="menu-themes blog-nav-item" target="_self" href="themes.html">Themes</a>
+        
+        <a class="menu-blog blog-nav-item" target="_self" href="download.html">Download</a>
+        
+        <a class="menu-about blog-nav-item" target="_self" href="about.html">About</a>
+        
+        <a class="menu-lang blog-nav-item" target="_self" href="https://zh.mweb.im/">中文</a>
+        
+        
+        </nav>
+      </div>
+    </div>
+    
+    
+ <div class="container" id="content-wrap">
+ 
+ 
+    
+     
+   <script type="text/javascript">
+      $(function(){
+        $('a.menu-blog').addClass('active');
+      });
+      </script>
+
+    
+      <script type="text/javascript">
+    $(function(){
+      var url = window.location.pathname;
+    var filename = url.substring(url.lastIndexOf('/')+1);
+    if (filename.length > 5) {
+      $('.blog-cats a').each(function(){
+        var href = $(this).attr('href');
+        if(href.length>5){
+          href = href.substring(0,href.length-5);
+          if (filename.startsWith(href)) { $(this).parent().addClass('active'); }
+        }
+      });
+    }
+    });
+  </script>
+   <div class="row">
+        <div class="col-sm-12">
+
+          <div class="blog-categories" style="padding-top: 0em; padding-bottom: 0em;">
+
+        <ul class="blog-cats">
+
+  
+    
+
+  
+      <li><a href="blog.html">All</a></li> 
+        
+              <li><a href="docs.html">Tutorials</a></li>
+        
+              <li><a href="tips.html">Tips & Tricks</a></li>
+        
+              <li><a href="releases.html">Releases</a></li>
+        
+    
+
+        </ul>
+        <div class="rss"><a href="atom.xml">RSS</a></div>
+          </div>
+       </div>
+     </div>
+     <hr style="margin-bottom: 60px;" />
+
+      <div class="row">
+
+        <div class="col-sm-10 blog-main">
+			<div class="blog-content-wrap">
+				<div class="blog-post">
+		            <h2 class="blog-post-title">Move the MWeb Lite Library's Data to MWeb</h2>
+		            <p class="blog-post-meta">2015/07/31 
+			            &nbsp;posted in 
+						
+						    <a class='category' href='tips.html'>Tips & Tricks</a>&nbsp;
+						
+						    <a class='category' href='docs.html'>Tutorials</a>&nbsp;
+						 
+						 
+		            </p>
+		            <div class="content-responsive">
+		            <p>When you MWeb Lite's Library documents is text-only, you can use <code>Export to Markdown</code> and <code>Input Files to Library </code> Export/Input MWeb Lite Library's documents to MWeb.</p>
+<p>If you MWeb Lite Library has a lot of photos and attachments, you can move all the MWeb Lite Library Data to MWeb. See the below for detail.</p>
+<span id="more"></span><!-- more -->
+<h2><a id="1-open-mweb-lite-document-library-folder" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>1. Open MWeb Lite Document Library Folder</h2>
+<p><img src="media/14383276824570/14383283373250.jpg" alt="" /></p>
+<p>Right click the MWeb Lite's Titlebar, selected <code>MWeb</code> and click, will open Finder like below:</p>
+<p><img src="media/14383276824570/14383286526093.jpg" alt="" /><br />
+Please notice the <code>LocalData</code> folder.</p>
+<h2><a id="2-open-mweb-document-library-folder" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>2. Open MWeb Document Library Folder</h2>
+<p><img src="media/14383276824570/14383284793437.jpg" alt="" /></p>
+<p>Right click the MWeb's Titlebar, selected <code>MWeb</code> and click, will open Finder like below:</p>
+<p><img src="media/14383276824570/14383287121781.jpg" alt="" /><br />
+Please notice the <code>LocalData</code> folder.</p>
+<h2><a id="3-move-the-mweb-lite-s-data-to-mweb" class="anchor" aria-hidden="true"><span class="octicon octicon-link"></span></a>3. Move the MWeb Lite's Data to MWeb</h2>
+<p><strong>Notice:</strong> Please backup the MWeb's <code>LocalData</code> folder first!</p>
+<ol>
+<li>Quit MWeb Lite and MWeb, notice, is <code>CMD + Q</code> to quit.</li>
+<li>Move the MWeb's <code>LocalData</code> folder to the Trash, Copy the MWeb Lite's <code>LocalData</code> folder to MWeb.</li>
+<li>Reopen MWeb.</li>
+<li>Finished!!</li>
+</ol>
+
+		            </div>
+				</div><!-- /.blog-post -->
+			</div>
+			<div class="share-comment">
+			<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-55117df11d1413c3" async="async"></script>
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<div class="addthis_native_toolbox"></div>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES * * */
+    var disqus_shortname = 'mweb-en';
+    
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+
+			</div>
+
+        </div><!-- /.blog-main -->
+	</div>
+</div>   <footer class="blog-footer">
+      <p>Copyright &copy; 2022
+Powered by <a target="_blank" href="http://www.mweb.im">MWeb</a> &nbsp;&nbsp; host on <a target="_blank" href="https://github.com/">Github Pages</a>
+.</p>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="asset/js/ie10-viewport-bug-workaround.js"></script>
+    
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-QBER5BMYWD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-QBER5BMYWD');
+</script>
+  </body>
+</html>
