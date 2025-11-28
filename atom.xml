@@ -4,7 +4,7 @@
   <title><![CDATA[MWeb]]></title>
   <link href="https://www.mweb.im/atom.xml" rel="self"/>
   <link href="https://www.mweb.im/"/>
-  <updated>2025-09-23T22:59:06+08:00</updated>
+  <updated>2025-10-20T17:22:21+08:00</updated>
   <id>https://www.mweb.im/</id>
   <author>
     <name><![CDATA[]]></name>
@@ -737,7 +737,7 @@ Content in the first column | Content in the second column
 </tr>
 <tr>
 <td>Content in the first column</td>
-<td>Content in the second column</td>
+<td>Content in the <strong>second</strong> column</td>
 </tr>
 </tbody>
 </table>
